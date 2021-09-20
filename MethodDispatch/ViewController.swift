@@ -9,9 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let messageClass = MessageClass()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
+        messageClass.someDo() // message dispatch
     }
 
 
