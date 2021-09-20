@@ -9,9 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let boy = Man()
+    let test = Test()
+    let classTwo = ClassTwo()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        boy.greeting() // witness table
+        
+        test.testMethod() // virtual table
+        
+        classTwo.someFunc() // virtual table
     }
 
 
