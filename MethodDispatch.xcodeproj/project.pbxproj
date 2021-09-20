@@ -13,6 +13,7 @@
 		9E7A2AF826F8E39F00942F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E7A2AF626F8E39F00942F59 /* Main.storyboard */; };
 		9E7A2AFA26F8E3A300942F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7A2AF926F8E3A300942F59 /* Assets.xcassets */; };
 		9E7A2AFD26F8E3A300942F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E7A2AFB26F8E3A300942F59 /* LaunchScreen.storyboard */; };
+		9E7A2B0F26F8F30E00942F59 /* MessageDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7A2B0E26F8F30E00942F59 /* MessageDispatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9E7A2AF926F8E3A300942F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E7A2AFC26F8E3A300942F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E7A2AFE26F8E3A300942F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E7A2B0E26F8F30E00942F59 /* MessageDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDispatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		9E7A2AEF26F8E39F00942F59 /* MethodDispatch */ = {
 			isa = PBXGroup;
 			children = (
+				9E7A2B0D26F8F2F400942F59 /* Message */,
 				9E7A2AF026F8E39F00942F59 /* AppDelegate.swift */,
 				9E7A2AF226F8E39F00942F59 /* SceneDelegate.swift */,
 				9E7A2AF426F8E39F00942F59 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				9E7A2AFE26F8E3A300942F59 /* Info.plist */,
 			);
 			path = MethodDispatch;
+			sourceTree = "<group>";
+		};
+		9E7A2B0D26F8F2F400942F59 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				9E7A2B0E26F8F30E00942F59 /* MessageDispatch.swift */,
+			);
+			path = Message;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E7A2AF526F8E39F00942F59 /* ViewController.swift in Sources */,
+				9E7A2B0F26F8F30E00942F59 /* MessageDispatch.swift in Sources */,
 				9E7A2AF126F8E39F00942F59 /* AppDelegate.swift in Sources */,
 				9E7A2AF326F8E39F00942F59 /* SceneDelegate.swift in Sources */,
 			);
