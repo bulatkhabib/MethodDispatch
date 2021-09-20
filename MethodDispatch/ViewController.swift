@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let boy = Man()
+    let test = Test()
+    let classTwo = ClassTwo()
     let myPet = Animal(type: "cat", name: "Pushok")
     let classA = ClassA()
     let classB = ClassB()
@@ -16,6 +19,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        boy.greeting() // witness table
+        
+        test.testMethod() // virtual table
+        
+        classTwo.someFunc() // virtual table
+
         myPet.printAnimal() // direct
         
         classA.doSomething() // direct
