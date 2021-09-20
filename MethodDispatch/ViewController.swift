@@ -9,11 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let myPet = Animal(type: "cat", name: "Pushok")
+    let classA = ClassA()
+    let classB = ClassB()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        myPet.printAnimal() // direct
+        
+        classA.doSomething() // direct
+        
+        classB.eat() // direct
     }
-
-
 }
 
