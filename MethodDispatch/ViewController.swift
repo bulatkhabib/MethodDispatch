@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     let boy = Man()
     let test = Test()
     let classTwo = ClassTwo()
+    let myPet = Animal(type: "cat", name: "Pushok")
+    let classA = ClassA()
+    let classB = ClassB()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,8 +24,12 @@ class ViewController: UIViewController {
         test.testMethod() // virtual table
         
         classTwo.someFunc() // virtual table
+
+        myPet.printAnimal() // direct
+        
+        classA.doSomething() // direct
+        
+        classB.eat() // direct
     }
-
-
 }
 
